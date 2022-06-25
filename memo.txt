@@ -1,0 +1,14 @@
+<font size=3 face="ＭＳ ゴシック">
+<h3>Browser Memo</h3>
+
+　　　mm　　　 Memo LiteWite　　: Web"LiteWite 保存は.htmlでlocal  
+　　　mm2　　　　　　　　　　　 : BrowserでMemo 保存は.htmlでlocal  
+　　　mmt　　　TextPad　　　　　: localに.txtで保存,内容は､削除するまでブラウザに表示<br>
+　　　　　　　　　　　　　　　　　され戻って書き込みを続行できる  
+　　　mmi　　　ittybitty　　　　: Adressが本文 文字数に限界ある  
+　　　mms　　　Simple Note　　　: Web"Simplenote" 保存は.htmlでlocalにも可能  
+　　　mli　　　LiteWrite　　　　: Webで litewrite.net を開く  
+　　　mdata　　　　　　　　　　 : localに保存  
+　　　mt　　　　　　　　　　　　: .LOG付きtxt Memo  
+
+<a href="https://www.dropbox.com/home/Chrome%20Data?preview=memo.txt">koko</a>
