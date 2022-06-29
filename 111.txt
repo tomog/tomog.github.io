@@ -1,14 +1,4 @@
-<html lang=ja>
-    <head>
-      	<meta charset="utf-8">
-	<font face="ＭＳ ゴシック" size="3">
-	<font size=3>
-	<font style=line-height:1.7>
-	<font color=#454545>
-	<!-- <b> 	Bolt表示 -->
-    </head>
 
-<body><br>
  ・<b>改行は半角空白二個 or ＜br＞, ・行頭空白は全角</b>  <br>
 このファイルは C:/Users/tomog/Dropbox/Chrome Data/memo.txt に在る<br>
 Chromeでの表示は<b> [mem]</b><br><br>
