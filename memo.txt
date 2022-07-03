@@ -9,7 +9,7 @@
     </head>
 
 <body>
-<a href=file:///C:/Users/tomog/Dropbox/Chrome%20Data/memo.txt>TXT</a>
+<a href=file:///C:/Users/tomog/Dropbox/Chrome%20Data/memo.txt>TXT</a><br>
 ------------
 <b>π</b>= 3.14 159265 35 8979 32 38462 64 3383279<br>
 　　　産医師(3.14) 異国に婿(159265) 産後(35) 厄なく(8979)<br>
