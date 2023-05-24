@@ -1,4 +1,5 @@
-<b>State    : City</b><br>
+<b>State    : State Capital</b><br>
+----------  : ------------<br>
 Alabama			: Montgomery<br>
 Alaska			: Juneau<br>
 Arizona			: Phoenix<br>
