@@ -1,0 +1,81 @@
+■ Rentry Metadata
+
+PAGE: ページタイトルなど、ウェブページ用のメタデータ。
+	PAGE_TITLE = Welcome to my Rentry!
+	PAGE_DESCRIPTION = My Rentry page and everything about me
+	PAGE_IMAGE = https://rentry.co/static/icons/512.png
+	PAGE_ICON = https://rentry.co/static/raccoon.webp
+
+SHARE: TwitterやGoogleなど、他のウェブサイトがスニペットとして使用するウェブページ用のメタデータ。
+
+	SHARE_TITLE = Welcome to my Rentry!
+	SHARE_DESCRIPTION = My Rentry page and everything about me
+	SHARE_IMAGE = https://rentry.co/static/icons/512.png
+	SHARE_TWITTER_TITLE = Welcome to my Rentry!
+	SHARE_TWITTER_DESCRIPTION = My Rentry page and everything about me
+	SHARE_TWITTER_IMAGE = https://rentry.co/static/icons/512.png
+
+OPTION: ページの動作を制御するオプション。
+	OPTION_DISABLE_VIEWS = true
+	OPTION_DISABLE_SEARCH_ENGINE = true
+	OPTION_USE_ORIGINAL_PUB_DATE = true
+
+ACCESS: アクセシビリティ設定または表示設定。
+	ACCESS_RECOMMENDED_THEME = dark
+	ACCESS_EASY_READ = /example
+
+SECRET: 他者から読み取られない情報を保存するためのオプション。
+	SECRET_VERIFY = Twitter: @... , email: abc@def.com
+	SECRET_RAW_ACCESS_CODE = example
+	SECRET_EMAIL_ADDRESS = support@rentry.co
+
+SAFETY: センシティブコンテンツに対するページブロックと警告。
+	SAFETY_PAGE_WARNING = custom
+	SAFETY_PAGE_WARNING_DESCRIPTION = This page contains this and that. You have been warned!
+	SAFETY_MEDIA_BLUR = true
+	SAFETY_LINK_WARNING = adult
+	SAFETY_LINK_WARNING_DESCRIPTION = adult
+	SAFETY_PAGE_FLAG = adult
+
+CONTAINER: ページ上のコンテンツを囲むボックスの制御。
+	CONTAINER_PADDING = 10px
+	CONTAINER_MAX_WIDTH = 600px ----------------> [最大 1200px]
+	CONTAINER_INNER_FOREGROUND_COLOR = RGBA(123,123,123,0.2)
+	CONTAINER_INNER_BACKGROUND_COLOR = transparent
+	CONTAINER_INNER_BACKGROUND_IMAGE = https://rentry.co/static/icons/512.png
+	CONTAINER_INNER_BACKGROUND_IMAGE_REPEAT = no-repeat
+	CONTAINER_INNER_BACKGROUND_IMAGE_POSITION = center
+	CONTAINER_INNER_BACKGROUND_IMAGE_SIZE = contain
+	CONTAINER_OUTER_FOREGROUND_COLOR = pink
+	CONTAINER_OUTER_BACKGROUND_COLOR = purple
+	CONTAINER_OUTER_BACKGROUND_IMAGE = https://rentry.co/static/icons/512.png
+	CONTAINER_OUTER_BACKGROUND_IMAGE_REPEAT = no-repeat
+	CONTAINER_OUTER_BACKGROUND_IMAGE_POSITION = center
+	CONTAINER_OUTER_BACKGROUND_IMAGE_SIZE = cover
+	CONTAINER_BORDER_IMAGE = https://rentry.co/static/icons/512.png
+	CONTAINER_BORDER_IMAGE_SLICE = fill
+	CONTAINER_BORDER_IMAGE_WIDTH = 25px
+	CONTAINER_BORDER_IMAGE_OUTSET = 10px
+	CONTAINER_BORDER_IMAGE_REPEAT = stretch
+	CONTAINER_BORDER_COLOR = yellow
+	CONTAINER_BORDER_WIDTH = 20px
+	CONTAINER_BORDER_STYLE = dashed
+	CONTAINER_BORDER_RADIUS = 3px
+	CONTAINER_SHADOW_COLOR = orange
+	CONTAINER_SHADOW_OFFSET = 0px 3px
+	CONTAINER_SHADOW_SPREAD = 3px
+	CONTAINER_SHADOW_BLUR = 5px
+
+CONTENT: コンテンツ本体を制御します。
+	CONTENT_FONT = Caveat Edu_Australia_VIC_WA_NT_Hand_Dots
+	CONTENT_FONT_WEIGHT = 500
+	CONTENT_TEXT_DIRECTION = ltr
+	CONTENT_TEXT_SIZE = 16px 1rem 2.5rem 0 0 0 0 0 1rem 1.5rem 1rem 0.8rem
+	CONTENT_TEXT_ALIGN = justify
+	CONTENT_TEXT_SHADOW_COLOR = black
+	CONTENT_TEXT_SHADOW_OFFSET = 1px 1px
+	CONTENT_TEXT_SHADOW_BLUR = 4px
+	CONTENT_TEXT_COLOR = grey white
+	CONTENT_LINK_COLOR = blue aqua
+	CONTENT_BULLET_COLOR = green red
+	CONTENT_LINK_BEHAVIOR = same same
