@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Brow.Memo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      line-height: 20px;
+      background: #e5e5e5; /* 薄めのグレー */
+    }
+    textarea {
+      width: 80%;
+      height: 70vh;		/* 高さ*/
+      font-size: 16px;
+      line-height: 20px;
+      background: #808080;	/* 濃いめのグレー */
+      color: #fff;		/* 文字は白にすると見やすい */
+      border: none;		/* 境界線なし */
+      outline: none;		/* フォーカス枠も消す */
+      padding: 1rem;		/* 余白を少し */
+      border-radius: 6px;	/* 角丸（不要なら削除） */
+    }
+  </style>
+</head>
+<body>
+<center>
+  <h2>HTML Browser Memo</h2>
+  <textarea id="memo"></textarea> <font size=1>
+  <center>C:/Data/bramemo.html　Edit:Depended on Brawser</center>
+  <center>©BossTom & MS.Copilot</center> </font>
+  <script>
+    const KEY = 'my_html_memo';
+
+    const textarea = document.getElementById('memo');
+
+    const saved = localStorage.getItem(KEY);
+    if (saved !== null) {
+      textarea.value = saved;
+    }
+
+    textarea.addEventListener('input', () => {
+      localStorage.setItem(KEY, textarea.value);
+    });
+  </script>
+<center>
+</body>
+</html>
