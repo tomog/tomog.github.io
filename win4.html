@@ -1,0 +1,57 @@
+<html lang=ja>
+    <head>
+      <meta charset="utf-8">
+    <title> Windy [4] </title>
+      <link rel="icon" href="https://tomog.github.io/img/ico/wind.ico" width=64>
+	<font color=000000> 
+	<link rel="stylesheet" href="style2.css">
+    <style>
+      .map-wrapper {
+        position: relative;
+        display: inline-block;
+        width: 725px;
+        height: 470px;
+        vertical-align: top;
+        margin: 5px;
+      }
+      .map-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        cursor: pointer;
+      }
+    </style>
+    </head>
+    <center>
+	    <body bgcolor=#f5f5f5><br>
+
+      <h1><b><font color=#6f6f6f>Windy</font></b></h1>
+<a href=https://www.windy.com/ja/-%E8%A1%9B%E6%98%9F-satellite?satellite,31.691,121.948,4><font size=4><b>Satellite</b></font></a><br>
+    <b><font size=4>Rain　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Cloud</b><br>
+      
+      <div class="map-wrapper">
+        <a class="map-link" href="https://www.windy.com/ja/-%E9%9B%B2-clouds?rain,29.783,136.055,5,i:pressure"></a>
+        <iframe width="725" height="470" src="https://embed.windy.com/embed2.html?lat=31.651&lon=121.935&detailLat=28.563&detailLon=132.083&width=650&height=420&zoom=4&level=surface&overlay=rain&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+      </div>
+
+      <div class="map-wrapper">
+        <a class="map-link" href="https://www.windy.com/ja/-%E9%9B%B2-clouds?clouds,29.783,136.055,5,i:pressure"></a>
+        <iframe width="725" height="470" src="https://embed.windy.com/embed2.html?lat=31.651&lon=121.935&detailLat=28.563&detailLon=132.083&width=650&height=420&zoom=4&level=surface&overlay=clouds&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+      </div><br>
+
+        <b>Temp　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Air Pressure</b><br>
+      
+      <div class="map-wrapper">
+        <a class="map-link" href="https://www.windy.com/ja/-%E6%B0%97%E6%B8%A9-temp?temp,29.783,136.055,5,i:pressure"></a>
+        <iframe width="725" height="470" src="https://embed.windy.com/embed2.html?lat=31.651&lon=121.935&detailLat=28.563&detailLon=132.083&width=650&height=420&zoom=4&level=surface&overlay=temp&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+      </div>
+
+      <div class="map-wrapper">
+        <a class="map-link" href="https://www.windy.com/ja/-%E6%B0%97%E5%9C%A7-pressure?pressure,29.783,136.055,5,i:pressure"></a>
+        <iframe width="725" height="470" src="https://embed.windy.com/embed2.html?lat=31.651&lon=121.935&detailLat=28.563&detailLon=132.083&width=650&height=420&zoom=4&level=surface&overlay=pressure&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+      </div><br>
+      </center>
+</html>
